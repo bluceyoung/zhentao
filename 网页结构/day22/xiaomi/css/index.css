@@ -1,0 +1,78 @@
+.top-img img{
+    float: left;
+    width: 100%;/*宽度充满整个父容器的宽度*/
+    /*高度不设置，会按比例进行缩放*/
+}
+.top-img{overflow: hidden;}
+
+.top-nav-bg{
+    background-color: #000;
+}
+.top-nav{width: 1226px;margin:0 auto;overflow: hidden;}
+.top-nav-left{float: left;}
+.top-nav-right{float: right;}
+.cart{float: right;}
+.top-nav-left li,.top-nav-right li{float: left;}
+.top-nav a{float:left;color: white;font-size: 11px;}
+.top-nav li{padding: 10px 0px;margin-right: 10px;}
+
+/**分类和轮播图*/
+.category-slideshow{
+    width: 1226px;margin:0 auto;
+    height: 460;
+    position: relative;
+    margin-top: 30px;
+}
+.category{position: absolute;
+    width: 234px;height: 420px;    
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.3);/*透明度0-1，0是全透，1是全不透*/
+}
+.category li{overflow: hidden;}
+.category li a{
+    float: left;
+    width:  184px;
+    padding: 13px 25px;
+    font-size:12px;
+    color:white
+}
+.category li a:hover{
+    background-color: rgb(255, 83, 16);
+    color:white
+}
+.category li a span{float: right;}
+
+
+.miaosha-div{
+    width: 1226px;margin:0 auto;
+}
+.miaosha-div ul{
+    width: 228px;
+    height: 164px;
+    padding: 3px;
+    background-color: #5F5750;
+}
+.miaosha-div ul li{
+    float: left;
+    width: 70px;
+    height: 82px;
+    padding:0px 3px;
+    position: relative;
+}
+.miaosha-div ul li::before{
+    content: '';
+    height: 1px;
+    width: 64px;
+    left: 9px;
+}
+.miaosha-div ul li::after{
+    content: '';
+    width: 1px;
+    height: 70px;
+    top:6px;
+}
+
+.miaosha-div ul li::before,.miaosha-div ul li::after{
+    position: absolute;
+    background-color: #665e57;
+}
