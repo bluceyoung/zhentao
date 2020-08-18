@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(223, 221, 221);
+}
+.top-bg{
+    background-color: #000;
+}
+.top{width: 1036px;margin:0 auto;overflow: hidden;}
+.top li{float: left;}/*浮动才能排到一行*/
+.top li a{
+    float: left;/*浮动为了支持上下内边距*/
+    padding: 15px 15px;
+    margin: 15px 0px;
+    color: white;
+}
+.top li a:hover{background-color: #fff; color: #000;}
+
+.nav-bg{height: 355px; 
+    background: url(../images/20180728164033_dCFG8.jpeg) no-repeat;
+    background-size: cover;
+}
+.nav-content{width: 1036px;margin:0 auto;overflow: hidden;}
+.nav-right{
+    float: right;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0.5);}
+.nav-right li{
+    padding:10px;
+}
+.nav-right li a{
+    font-size: 14px;
+    color:white;
+}
+.nav-right li a:hover{color : rgb(137, 255, 2);}
+
+.main-body{
+    width:1036px ;
+    margin: 50px auto;
+    background-color: #fff;
+}
+.nav,.nav li{overflow: hidden;}
+.nav li,.nav li a{float: left;}
+.nav{
+    padding: 15px 25px;
+}
+.nav li a{
+    padding: 15px 25px;
+    color: black;
+}
+.nav li .active,.nav li a:hover{background-color: green; color:white}
+
+/*两个表单*/
+.info,.contact{margin:60px}
+.info h2,.contact h2{
+    font-size: 18px;
+    font-weight: normal;
+}
+.info h2 span,.contact h2 span{
+    margin-left: 20px;
+    font-size:11px;
+    color: #666;
+    font-weight: bold;
+}
+form>div{    
+    margin-top: 15px;
+}
+.contact form>div{
+    overflow: hidden;
+}
+.contact form>div>div{
+    float: left;
+}
+.label-left{
+    display: inline-block;
+    width: 95px;
+    height: 45px;
+    text-align: right;
+    margin-right: 15px;
+    font-size:11px;
+    line-height: 45px;
+}
+form .right{
+    font-size:10px;
+    color: #666;
+}
+form .text-box{width: 181px;height: 34px;}
+form .add{
+    display: inline-block; 
+    width: 65px; height: 32px;
+    background-color: green; color:white;
+    text-align: center; line-height: 32px;
+}
+.desc{
+    width: 400px;
+    height: 83px;
+    border: 1px solid #999
+}
+.contact p{
+    margin-top: 10px;
+}
+.email{
+    color: green;
+    margin-left: 40px;
+}
+.info-desc span,.info-desc textarea{
+    vertical-align: top;
+}
+.info .info-desc .label-desc{
+    line-height: 11px;
+}
