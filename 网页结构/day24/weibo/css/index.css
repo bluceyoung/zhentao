@@ -1,0 +1,27 @@
+body{
+    background: url(../images/body_repeat.png);
+}
+/*顶部样式*/
+.top-bg{background-color: #fff;border-top: 2px solid #FA7D3C;}
+.top-content{
+    width: 1250px; margin:0 auto; 
+    overflow: hidden;
+    padding:9px 0px;
+}
+.top-left{float: left;}
+.top-right{float: right;}
+
+.top-left img,.top-left .search-box{float: left;}
+.top-nav,.nav-right{float: left;overflow: hidden;}
+.top-nav li{float: left;}
+.search-box input,.search-box a{float: left;}
+.search-box{
+    width: 468px;
+    height: 28px;
+    margin-left: 30px;
+    border:1px solid #CCCCCC;
+}
+.search-box input{
+    height: 28px;width: 425px;
+    padding-left: 15px;
+    outline: none;border: none;}

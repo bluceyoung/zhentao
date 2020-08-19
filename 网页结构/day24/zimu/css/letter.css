@@ -1,0 +1,18 @@
+.letter{
+    display: inline-block;
+    height: 170px;
+    background: url(../images/a-z.jpg) no-repeat;
+}
+
+.a{
+    width: 133px;
+    background-position:-10px -56px;
+}
+.i{
+    width: 82px;
+    background-position: -256px -227px;
+}
+.w{
+    width: 150px;
+    background-position: -258px -572px;
+}

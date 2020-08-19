@@ -1,0 +1,37 @@
+/*精灵图的相关样式*/
+.myicon{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/icon_out.png) no-repeat;
+    background-position-x: -49px;
+}
+
+/*单独设置每个样式对应的y的位置*/
+.icon-home{
+    background-position-y: 0px;
+}
+.icon-luopan{
+    background-position-y: -24px;
+}
+.icon-game{
+    background-position-y: -50px;
+}
+.icon-user{    
+    background-position-y: -75px;
+}
+.icon-mail{    
+    background-position-y: -100px;
+}
+.icon-search{
+    background-position-y:-172px;
+}
+
+
+/*超链接悬停*/
+.a-icon:hover .myicon{
+    background-position-x: -79px;
+}
+.a-icon:hover span{
+    color: #F97C39;
+}
