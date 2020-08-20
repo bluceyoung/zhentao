@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!--作者：TeacherYoung凌风-->
+    <!--www.teacheryoung.com-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网页标题</title>
+    <style>
+        fieldset{
+            border-color: red;
+            border-width: 1px;
+            border-style: solid;
+        }
+        #div1{
+            display: none;
+            float: left;
+            padding: 10px;
+            font-size:20px;
+            width: 100px;
+            background-color:aqua;
+            line-height: 1;/*如果没有单位，那就是字号的倍数*/
+        }
+        #div2{
+            border: 1px solid red;
+        }
+        #right{
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>回复：李四</legend>
+        <fieldset>
+            <legend>回复：张三</legend>
+            <p>回复内容</p>
+        </fieldset>
+        您说的挺对
+    </fieldset>
+
+    <fieldset style="border-width:1px 0px 0px 0px;">
+        <legend>帐号设置</legend>
+    </fieldset>
+    <fieldset style="border-width:1px 0px 0px 0px;"></fieldset>
+    <div id="div1">
+        测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试
+    </div>
+    <div id="div2">
+        <h2>
+            <span>标题</span>
+            <span id="right">右侧</span>
+        </h2>
+        
+    </div>
+</body>
+
+</html>

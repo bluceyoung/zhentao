@@ -1,0 +1,21 @@
+.lefticon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background:url(../images/account_ico.png) no-repeat;
+}
+
+.lefticon-myinfo{
+    
+}
+
+.lefticon-head{background-position-y: -25px;}
+.lefticon-lock{background-position-y: -75px;}
+.lefticon-message{background-position-y: -100px;}
+.lefticon-safe{background-position-y: -250px;}
+.lefticon-heart{background-position-y: -50px;}
+.lefticon-bind{background-position-y: -150px;}
+/*悬停*/
+.active .lefticon{
+    background-position-x: -25px;
+}

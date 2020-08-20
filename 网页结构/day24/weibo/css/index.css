@@ -2,7 +2,7 @@ body{
     background: url(../images/body_repeat.png);
 }
 /*顶部样式*/
-.top-bg{background-color: #fff;border-top: 2px solid #FA7D3C;}
+.top-bg{width:100%; background-color: #fff;border-top: 2px solid #FA7D3C;}
 .top-content{
     width: 1250px; margin:0 auto; 
     overflow: hidden;
@@ -14,7 +14,7 @@ body{
 .top-left img,.top-left .search-box{float: left;}
 .top-nav,.nav-right{float: left;overflow: hidden;}
 .top-nav li{float: left;}
-.search-box input,.search-box a{float: left;}
+.search-box input,.search-box a,.search-box i{float: left;}
 .search-box{
     width: 468px;
     height: 28px;
@@ -25,3 +25,73 @@ body{
     height: 28px;width: 425px;
     padding-left: 15px;
     outline: none;border: none;}
+.search-box .a-icon{margin-top:1.5px}
+/*让所有的span和前面的i高度一致*/
+.top-nav{margin-top: 2.5px;}
+.top-nav>li{padding: 0px 12px;}
+.top-nav>li>a{ display: block; overflow: hidden;}
+.top-nav>li>a>i{float: left;}
+.top-nav>li>a>span{
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    font-size:14px;
+    color: #696E78;
+}
+/*导航右侧的盒子*/
+.nav-right{
+    height: 30px;
+    padding: 2.5px 20px;
+    border-left:1px solid #D9D9D9;
+}
+.nav-right>.a-icon{margin-left: 10px;}
+
+/*主体大盒子*/
+.main-body{
+    width: 980px;
+    margin: 10px auto;
+    height: 500px;
+    background: url(../images/repeat_bg_y.png) repeat-y;
+}
+.body-left{
+    float: left;
+    width: 150px;
+    padding-top: 10px;
+}
+.body-right{
+    float: left;
+    width: 830px;}
+
+/*主体左侧*/
+.title-hr{
+    padding-left: 18px;
+    font-size:12px;
+    color: #AEAEAE;
+    border-color: #AEAEAE;
+    border-width: 1px 0px 0px 0px ;
+    border-style: solid;}
+.title-hr legend{padding:5px}
+.body-left ul{
+    overflow: hidden;
+    padding:10px 0px ;
+}
+.body-left ul>li>a{
+    float: left;
+    width: 150px;
+    padding: 7px 0px 7px 20px;
+    font-size:12px;
+    color: #333;
+}
+.body-left ul>li>a>span{
+    float: left;
+    height: 20px;
+    margin-left: 10px;
+    line-height: 20px;
+}
+.body-left ul>li>a>i{float: left;}
+.active{
+    background-color: #FAFAFA!important;
+}
+.body-left ul>li>a:hover{
+    background-color: #ddd;
+}

@@ -21,11 +21,14 @@
     background-position-y: -75px;
 }
 .icon-mail{    
-    background-position-y: -100px;
+    background-position-y: -99px;
 }
 .icon-search{
-    background-position-y:-172px;
+    background-position-y:-173px;
 }
+.icon-video{background-position-y: -150px;}
+.icon-setting{background-position-y: -125px;}
+.icon-edit{background-position-y: -275px;}
 
 
 /*超链接悬停*/

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/myicon.css">
+    <link rel="stylesheet" href="css/lefticon.css">
 </head>
 
 <body>
@@ -24,21 +25,48 @@
             </div>
             <div class="top-right">
                 <ul class="top-nav">
-                    <li><a href=""><i class="myicon home"></i><span>首页</span></a></li>
-                    <li><a href=""><i class="myicon home"></i><span>视频</span></a></li>
-                    <li><a href=""><i class="myicon luopan"></i><span>发现</span></a></li>
-                    <li><a href=""><i class="myicon game"></i><span>游戏</span></a></li>
-                    <li><a href=""><i class="myicon user"></i><span>TeacherYoung...</span></a></li>
+                    <li><a class="a-icon" href=""><i class="myicon icon-home"></i><span>首页</span></a></li>
+                    <li><a class="a-icon" href=""><i class="myicon icon-video"></i><span>视频</span></a></li>
+                    <li><a class="a-icon" href=""><i class="myicon icon-luopan"></i><span>发现</span></a></li>
+                    <li><a class="a-icon" href=""><i class="myicon icon-game"></i><span>游戏</span></a></li>
+                    <li><a class="a-icon" href=""><i class="myicon icon-user"></i><span>TeacherYoung...</span></a></li>
                 </ul>
                 <div class="nav-right">
-                    <a class="myicon mail" href=""></a>
-                    <a class="myicon mail" href=""></a>
-                    <a class="myicon mail" href=""></a>
+                    <a class="a-icon" href=""><i class="myicon icon-mail"></i></a>
+                    <a class="a-icon" href=""><i class="myicon icon-setting"></i></a>
+                    <a class="a-icon" href=""><i class="myicon icon-edit"></i></a>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- 居中的大盒子，主体区域 -->
+    <div class="main-body">
+        <div class="body-left">
+            <fieldset class="title-hr">
+                <legend>帐号设置</legend>
+            </fieldset>
+            <ul>
+                <li><a class="active" href=""><i class="lefticon lefticon-myinfo"></i><span>我的信息</span></a></li>
+                <li><a href=""><i class="lefticon lefticon-head"></i><span>头像</span></a></li>
+            </ul>
+            <fieldset class="title-hr"></fieldset>
+            <ul>
+                <li><a href=""><i class="lefticon lefticon-lock"></i><span>隐私设置</span></a></li>
+                <li><a href=""><i class="lefticon lefticon-message"></i><span>消息设置</span></a></li>
+                <li><a href=""><i class="lefticon lefticon-safe"></i><span>屏蔽设置</span></a></li>
+                <li><a href=""><i class="lefticon lefticon-heart"></i><span>偏好设置</span></a></li>
+            </ul>
+            <fieldset class="title-hr"></fieldset>
+            <ul>
+                <li><a href=""><i class="lefticon lefticon-bind"></i><span>帐号绑定</span></a></li>
+            </ul>
+            <fieldset class="title-hr"></fieldset>
+        </div>
+        <div class="body-right">
+
+        </div>
+    </div>
 </body>
 
 </html>
