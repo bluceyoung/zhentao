@@ -1,0 +1,74 @@
+.top-bg{
+    background-color: #20232C;
+}
+.top-content{
+    width: 1380px;
+    margin: 0 auto;
+    padding: 9px 0px 10px 0px;
+    overflow: hidden;
+}
+.logo{
+    background: url(../images/homeico.png) no-repeat;
+}
+.logo-1{
+    float: left;
+    width: 48px;
+    height: 52px;
+}
+.logo-2{
+    float:left;
+    width: 81px;
+    height:27px;
+    margin-top: 12.5px;
+    margin-left: 33px;
+    background-position:-60px -24px;
+}
+.logo-search{
+    float:left;
+    width: 20px;
+    height: 20px;
+    margin-top: 8.5px;
+    margin-left: 5px;
+    background-position: -170px -150px;
+}
+
+.nav-left,.search,.nav-right{float: left;}
+.nav-left li,.nav-right li{float: left;}
+.top-content a{
+    color: #BDBDBD;
+}
+.nav-left{
+    margin-left: 50px;
+}
+.nav-left li{
+    height: 52px;
+    line-height: 52px;
+    margin-right: 35px;
+}
+.search{
+    width: 250px;
+    height: 37px;
+    margin-top: 7px;
+    background-color: #2F333F;
+}
+.search input{
+    float: left;
+    width: 180px;
+    height: 37px;
+    border:none;
+    padding-left: 20px;
+    outline: none;
+    background-color: #2F333F;
+    color: #999;
+}
+
+.nav-right{
+    margin-top: 24px;
+    margin-left: 77px;
+}
+.nav-right li{
+    margin-left: 38px;
+}
+.nav-right li a{
+    font-size: 11px;
+}
